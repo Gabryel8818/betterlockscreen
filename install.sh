@@ -58,6 +58,7 @@ DEPS["i3lock-color"]="i3lock-color"
 DEPS["xdpyinfo"]="xdpyinfo"
 DEPS["xrdb"]="xrdb"
 DEPS["xset"]="xset"
+DEPS["bc"]="bc"
 
 if ! cmd_exists DEPS["i3lock-color"] && cmd_exists "i3lock"; then
 	DEPS["i3lock-color"]="i3lock"
